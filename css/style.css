@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    background:-webkit-gradient(linear, left bottom, left top, from(#000074), to(transparent));
+    background:linear-gradient(to top, #000074, transparent);
+    
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    background: url(../img/background.jpg) 0 0 no-repeat;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 20px 10px;
+}
+header, footer {
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+}
+header img {
+    width: 180px;
+}
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-weight: bold;
+}
+section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px;
+
+}
+section p, section a {
+    width: 70%; 
+    text-align: left;
+}
+footer {
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
